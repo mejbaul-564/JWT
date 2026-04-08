@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= title %></title>
+    <!-- dynamic title -->
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="hero-header">
+      <div class="overlay">
+        <h1>🌿 Welcome to My Village</h1>
+        <p>Green fields, fresh air, and peaceful life</p>
+        <button>Explore More</button>
+      </div>
+    </header>
+
+    <style>
+      .hero-header {
+        height: 100vh;
+        background: url("https://images.unsplash.com/photo-1500382017468-9049fed747ef")
+          no-repeat center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      /* Dark overlay */
+      .overlay {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 40px;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+      }
+
+      .overlay h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+      }
+
+      .overlay p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .overlay button {
+        padding: 10px 25px;
+        font-size: 16px;
+        border: none;
+        background: #4caf50;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .overlay button:hover {
+        background: #45a049;
+      }
+    </style>
+  </body>
+</html>
